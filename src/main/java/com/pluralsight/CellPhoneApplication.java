@@ -30,7 +30,9 @@ public class CellPhoneApplication {
         cellphone = new CellPhone(serialNumber, model, carrier, phoneNumber, owner);
 
         CellPhone cellphone2;
-        cellphone2 = new CellPhone(serialNumber, model, carrier, phoneNumber, owner);
+        cellphone2 = new CellPhone(12345, "iPhone 16", "Verizon",
+                "888-222-3333", "Dana Wyatt");
+
         CellPhone cellphone3;
         cellphone3 = new CellPhone(56789, "Samsung Galaxy S25","AT&T", "815-555-3333", "Alex Smith");
 
