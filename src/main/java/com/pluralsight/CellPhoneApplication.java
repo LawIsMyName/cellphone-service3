@@ -31,10 +31,13 @@ public class CellPhoneApplication {
 
         CellPhone cellphone2;
         cellphone2 = new CellPhone(serialNumber, model, carrier, phoneNumber, owner);
+        CellPhone cellphone3;
+        cellphone3 = new CellPhone(56789, "Samsung Galaxy S25","AT&T", "815-555-3333", "Alex Smith");
 
         // call on method to display everything twice
         display(cellphone);
         display(cellphone2);
+        display(cellphone3);
 
         // call 855-555-2222
         cellphone.dial("855-555-2222");
@@ -42,6 +45,7 @@ public class CellPhoneApplication {
         // make cellphones dial each other
         cellphone.dial(cellphone2.getPhoneNumber());
         cellphone2.dial(cellphone.getPhoneNumber());
+
 
     }
 
