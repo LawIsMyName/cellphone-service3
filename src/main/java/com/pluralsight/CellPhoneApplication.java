@@ -47,7 +47,7 @@ public class CellPhoneApplication {
         // make cellphones dial each other
         cellphone.dial(cellphone2.getPhoneNumber());
         cellphone2.dial(cellphone.getPhoneNumber());
-
+        cellphone.dial(cellphone3.getPhoneNumber());
 
     }
 
